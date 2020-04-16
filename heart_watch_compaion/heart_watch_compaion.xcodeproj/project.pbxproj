@@ -1,0 +1,616 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F6F9B24324491FA600085459 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6F9B24224491FA600085459 /* AppDelegate.swift */; };
+		F6F9B24524491FA600085459 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6F9B24424491FA600085459 /* SceneDelegate.swift */; };
+		F6F9B24824491FA600085459 /* heart_watch_compaion.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F6F9B24624491FA600085459 /* heart_watch_compaion.xcdatamodeld */; };
+		F6F9B24A24491FA600085459 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6F9B24924491FA600085459 /* ContentView.swift */; };
+		F6F9B24C24491FA800085459 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F6F9B24B24491FA800085459 /* Assets.xcassets */; };
+		F6F9B24F24491FA800085459 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F6F9B24E24491FA800085459 /* Preview Assets.xcassets */; };
+		F6F9B25224491FA800085459 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F6F9B25024491FA800085459 /* LaunchScreen.storyboard */; };
+		F6F9B25D24491FA800085459 /* heart_watch_compaionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6F9B25C24491FA800085459 /* heart_watch_compaionTests.swift */; };
+		F6F9B26824491FA800085459 /* heart_watch_compaionUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6F9B26724491FA800085459 /* heart_watch_compaionUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F6F9B25924491FA800085459 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F6F9B23724491FA600085459 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F6F9B23E24491FA600085459;
+			remoteInfo = heart_watch_compaion;
+		};
+		F6F9B26424491FA800085459 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F6F9B23724491FA600085459 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F6F9B23E24491FA600085459;
+			remoteInfo = heart_watch_compaion;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F6F9B23F24491FA600085459 /* heart_watch_compaion.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = heart_watch_compaion.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6F9B24224491FA600085459 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F6F9B24424491FA600085459 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		F6F9B24724491FA600085459 /* heart_watch_compaion.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = heart_watch_compaion.xcdatamodel; sourceTree = "<group>"; };
+		F6F9B24924491FA600085459 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F6F9B24B24491FA800085459 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F6F9B24E24491FA800085459 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F6F9B25124491FA800085459 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F6F9B25324491FA800085459 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F6F9B25824491FA800085459 /* heart_watch_compaionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = heart_watch_compaionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6F9B25C24491FA800085459 /* heart_watch_compaionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = heart_watch_compaionTests.swift; sourceTree = "<group>"; };
+		F6F9B25E24491FA800085459 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F6F9B26324491FA800085459 /* heart_watch_compaionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = heart_watch_compaionUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6F9B26724491FA800085459 /* heart_watch_compaionUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = heart_watch_compaionUITests.swift; sourceTree = "<group>"; };
+		F6F9B26924491FA800085459 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F6F9B23C24491FA600085459 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6F9B25524491FA800085459 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6F9B26024491FA800085459 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F6F9B23624491FA600085459 = {
+			isa = PBXGroup;
+			children = (
+				F6F9B24124491FA600085459 /* heart_watch_compaion */,
+				F6F9B25B24491FA800085459 /* heart_watch_compaionTests */,
+				F6F9B26624491FA800085459 /* heart_watch_compaionUITests */,
+				F6F9B24024491FA600085459 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F6F9B24024491FA600085459 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F6F9B23F24491FA600085459 /* heart_watch_compaion.app */,
+				F6F9B25824491FA800085459 /* heart_watch_compaionTests.xctest */,
+				F6F9B26324491FA800085459 /* heart_watch_compaionUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F6F9B24124491FA600085459 /* heart_watch_compaion */ = {
+			isa = PBXGroup;
+			children = (
+				F6F9B24224491FA600085459 /* AppDelegate.swift */,
+				F6F9B24424491FA600085459 /* SceneDelegate.swift */,
+				F6F9B24924491FA600085459 /* ContentView.swift */,
+				F6F9B24B24491FA800085459 /* Assets.xcassets */,
+				F6F9B25024491FA800085459 /* LaunchScreen.storyboard */,
+				F6F9B25324491FA800085459 /* Info.plist */,
+				F6F9B24624491FA600085459 /* heart_watch_compaion.xcdatamodeld */,
+				F6F9B24D24491FA800085459 /* Preview Content */,
+			);
+			path = heart_watch_compaion;
+			sourceTree = "<group>";
+		};
+		F6F9B24D24491FA800085459 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				F6F9B24E24491FA800085459 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F6F9B25B24491FA800085459 /* heart_watch_compaionTests */ = {
+			isa = PBXGroup;
+			children = (
+				F6F9B25C24491FA800085459 /* heart_watch_compaionTests.swift */,
+				F6F9B25E24491FA800085459 /* Info.plist */,
+			);
+			path = heart_watch_compaionTests;
+			sourceTree = "<group>";
+		};
+		F6F9B26624491FA800085459 /* heart_watch_compaionUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F6F9B26724491FA800085459 /* heart_watch_compaionUITests.swift */,
+				F6F9B26924491FA800085459 /* Info.plist */,
+			);
+			path = heart_watch_compaionUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F6F9B23E24491FA600085459 /* heart_watch_compaion */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F6F9B26C24491FA800085459 /* Build configuration list for PBXNativeTarget "heart_watch_compaion" */;
+			buildPhases = (
+				F6F9B23B24491FA600085459 /* Sources */,
+				F6F9B23C24491FA600085459 /* Frameworks */,
+				F6F9B23D24491FA600085459 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = heart_watch_compaion;
+			productName = heart_watch_compaion;
+			productReference = F6F9B23F24491FA600085459 /* heart_watch_compaion.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F6F9B25724491FA800085459 /* heart_watch_compaionTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F6F9B26F24491FA800085459 /* Build configuration list for PBXNativeTarget "heart_watch_compaionTests" */;
+			buildPhases = (
+				F6F9B25424491FA800085459 /* Sources */,
+				F6F9B25524491FA800085459 /* Frameworks */,
+				F6F9B25624491FA800085459 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F6F9B25A24491FA800085459 /* PBXTargetDependency */,
+			);
+			name = heart_watch_compaionTests;
+			productName = heart_watch_compaionTests;
+			productReference = F6F9B25824491FA800085459 /* heart_watch_compaionTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F6F9B26224491FA800085459 /* heart_watch_compaionUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F6F9B27224491FA800085459 /* Build configuration list for PBXNativeTarget "heart_watch_compaionUITests" */;
+			buildPhases = (
+				F6F9B25F24491FA800085459 /* Sources */,
+				F6F9B26024491FA800085459 /* Frameworks */,
+				F6F9B26124491FA800085459 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F6F9B26524491FA800085459 /* PBXTargetDependency */,
+			);
+			name = heart_watch_compaionUITests;
+			productName = heart_watch_compaionUITests;
+			productReference = F6F9B26324491FA800085459 /* heart_watch_compaionUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F6F9B23724491FA600085459 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1140;
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = "Thomas Sciaroni";
+				TargetAttributes = {
+					F6F9B23E24491FA600085459 = {
+						CreatedOnToolsVersion = 11.4.1;
+					};
+					F6F9B25724491FA800085459 = {
+						CreatedOnToolsVersion = 11.4.1;
+						TestTargetID = F6F9B23E24491FA600085459;
+					};
+					F6F9B26224491FA800085459 = {
+						CreatedOnToolsVersion = 11.4.1;
+						TestTargetID = F6F9B23E24491FA600085459;
+					};
+				};
+			};
+			buildConfigurationList = F6F9B23A24491FA600085459 /* Build configuration list for PBXProject "heart_watch_compaion" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F6F9B23624491FA600085459;
+			productRefGroup = F6F9B24024491FA600085459 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F6F9B23E24491FA600085459 /* heart_watch_compaion */,
+				F6F9B25724491FA800085459 /* heart_watch_compaionTests */,
+				F6F9B26224491FA800085459 /* heart_watch_compaionUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F6F9B23D24491FA600085459 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6F9B25224491FA800085459 /* LaunchScreen.storyboard in Resources */,
+				F6F9B24F24491FA800085459 /* Preview Assets.xcassets in Resources */,
+				F6F9B24C24491FA800085459 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6F9B25624491FA800085459 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6F9B26124491FA800085459 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F6F9B23B24491FA600085459 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6F9B24324491FA600085459 /* AppDelegate.swift in Sources */,
+				F6F9B24524491FA600085459 /* SceneDelegate.swift in Sources */,
+				F6F9B24A24491FA600085459 /* ContentView.swift in Sources */,
+				F6F9B24824491FA600085459 /* heart_watch_compaion.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6F9B25424491FA800085459 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6F9B25D24491FA800085459 /* heart_watch_compaionTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6F9B25F24491FA800085459 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6F9B26824491FA800085459 /* heart_watch_compaionUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F6F9B25A24491FA800085459 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F6F9B23E24491FA600085459 /* heart_watch_compaion */;
+			targetProxy = F6F9B25924491FA800085459 /* PBXContainerItemProxy */;
+		};
+		F6F9B26524491FA800085459 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F6F9B23E24491FA600085459 /* heart_watch_compaion */;
+			targetProxy = F6F9B26424491FA800085459 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F6F9B25024491FA800085459 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F6F9B25124491FA800085459 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F6F9B26A24491FA800085459 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F6F9B26B24491FA800085459 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F6F9B26D24491FA800085459 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"heart_watch_compaion/Preview Content\"";
+				DEVELOPMENT_TEAM = FD7NKUB3LZ;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = heart_watch_compaion/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "cmpe2020.heart-watch-compaion";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F6F9B26E24491FA800085459 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"heart_watch_compaion/Preview Content\"";
+				DEVELOPMENT_TEAM = FD7NKUB3LZ;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = heart_watch_compaion/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "cmpe2020.heart-watch-compaion";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F6F9B27024491FA800085459 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FD7NKUB3LZ;
+				INFOPLIST_FILE = heart_watch_compaionTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "cmpe2020.heart-watch-compaionTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/heart_watch_compaion.app/heart_watch_compaion";
+			};
+			name = Debug;
+		};
+		F6F9B27124491FA800085459 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FD7NKUB3LZ;
+				INFOPLIST_FILE = heart_watch_compaionTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "cmpe2020.heart-watch-compaionTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/heart_watch_compaion.app/heart_watch_compaion";
+			};
+			name = Release;
+		};
+		F6F9B27324491FA800085459 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FD7NKUB3LZ;
+				INFOPLIST_FILE = heart_watch_compaionUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "cmpe2020.heart-watch-compaionUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = heart_watch_compaion;
+			};
+			name = Debug;
+		};
+		F6F9B27424491FA800085459 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FD7NKUB3LZ;
+				INFOPLIST_FILE = heart_watch_compaionUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "cmpe2020.heart-watch-compaionUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = heart_watch_compaion;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F6F9B23A24491FA600085459 /* Build configuration list for PBXProject "heart_watch_compaion" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F6F9B26A24491FA800085459 /* Debug */,
+				F6F9B26B24491FA800085459 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F6F9B26C24491FA800085459 /* Build configuration list for PBXNativeTarget "heart_watch_compaion" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F6F9B26D24491FA800085459 /* Debug */,
+				F6F9B26E24491FA800085459 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F6F9B26F24491FA800085459 /* Build configuration list for PBXNativeTarget "heart_watch_compaionTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F6F9B27024491FA800085459 /* Debug */,
+				F6F9B27124491FA800085459 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F6F9B27224491FA800085459 /* Build configuration list for PBXNativeTarget "heart_watch_compaionUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F6F9B27324491FA800085459 /* Debug */,
+				F6F9B27424491FA800085459 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		F6F9B24624491FA600085459 /* heart_watch_compaion.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				F6F9B24724491FA600085459 /* heart_watch_compaion.xcdatamodel */,
+			);
+			currentVersion = F6F9B24724491FA600085459 /* heart_watch_compaion.xcdatamodel */;
+			path = heart_watch_compaion.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = F6F9B23724491FA600085459 /* Project object */;
+}
